@@ -1,0 +1,152 @@
+/* ===== RESET ===== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== BODY ===== */
+body{
+    background-color: #e5e5e5;
+}
+
+/* ===== BANNER ===== */
+header{
+    width: 100%;
+}
+
+.anh-banner{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ===== NAV ===== */
+nav{
+    background: #0b4ea2;
+    width: 100%;
+}
+
+.menu-ngang{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px 0;
+}
+
+.menu-ngang li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-ngang li a:hover{
+    opacity: 0.8;
+}
+
+/* ===== ĐƯỜNG DẪN ===== */
+.duong-dan-trang{
+    padding: 10px 30px;
+    background: #f1f1f1;
+    font-size: 14px;
+}
+
+/* ===== MAIN ===== */
+main{
+    display: flex;
+    gap: 20px;
+    padding: 20px 30px;
+    align-items: flex-start;
+}
+
+/* ===== MENU TRÁI ===== */
+.menu-ben-trai{
+    width: 25%;
+}
+
+.menu-ben-trai ul{
+    list-style: none;
+}
+
+.menu-ben-trai li{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.menu-ben-trai li:hover{
+    background: #f5f5f5;
+}
+
+/* bỏ highlight xanh */
+.dang-chon{
+    background: transparent;
+    color: black;
+    font-weight: normal;
+}
+
+/* ===== NỘI DUNG CHÍNH ===== */
+.noi-dung-chinh{
+    width: 75%;
+    min-height: 400px;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+/* ===== FOOTER (ĐÃ SỬA) ===== */
+footer{
+    display: flex;
+    justify-content: flex-start; /* đưa về cùng 1 phía */
+    align-items: center;
+
+    gap: 25px; /* khoảng cách giữa logo và thông tin */
+
+    padding: 20px 30px;
+    background: #0b4ea2;
+    color: white;
+}
+
+.logo-chan-trang img{
+    width: 80px;
+}
+
+.thong-tin-chan-trang p{
+    margin: 5px 0;
+}
+
+/* ===== NÚT QUAY LẠI ===== */
+.khung-nut-lien-he{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+    padding: 15px 30px;
+    box-sizing: border-box;
+}
+
+.nut-lien-he{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px 16px;
+
+    background: #0b4ea2;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 6px;
+
+    font-size: 14px;
+
+    white-space: nowrap;
+
+    transition: 0.2s;
+}
+
+.nut-lien-he:hover{
+    background: #083c7d;
+}
