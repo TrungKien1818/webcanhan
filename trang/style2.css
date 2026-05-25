@@ -1,0 +1,142 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== BODY ===== */
+body{
+    background-color: #e5e5e5;
+}
+
+/* ===== KHUNG CHÍNH ===== */
+.khung-chinh{
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* ===== TIÊU ĐỀ ===== */
+.tieu-de{
+    background-color: #8aa84c;
+    padding: 30px;
+    text-align: center;
+}
+
+.tieu-de h1{
+    font-size: 50px;
+}
+
+/* ===== FORM ===== */
+form{
+    padding: 35px;
+}
+
+.nhom-form{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.nhom-form label{
+    width: 180px;
+    font-size: 22px;
+}
+
+.nhom-form input,
+.nhom-form select{
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    background: transparent;
+    font-size: 18px;
+}
+
+/* ===== GIỚI TÍNH ===== */
+.gioi-tinh{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+
+/* ===== SỞ TRƯỜNG ===== */
+.so-truong{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+
+/* ===== MÔ TẢ ===== */
+.mo-ta{
+    align-items: flex-start;
+}
+
+textarea{
+    width: 70%;
+    height: 120px;
+    padding: 10px;
+    font-size: 18px;
+    resize: none;
+}
+
+/* ===== NÚT ĐĂNG KÝ ===== */
+.nut-bam{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nut-bam button{
+    background-color: #8aa84c;
+    padding: 12px 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.nut-bam button:hover{
+    opacity: 0.8;
+}
+
+/* ===== KHUNG NÚT QUAY LẠI ===== */
+.khung-nut{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+    padding: 0 35px;   /* tránh bị sát mép */
+    margin-top: 20px;
+
+    box-sizing: border-box;
+}
+
+/* ===== NÚT QUAY LẠI ===== */
+.nut-lien-he{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px 16px;
+
+    background: #0b4ea2;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 6px;
+
+    font-size: 14px;
+
+    white-space: nowrap; /* tránh mất chữ */
+
+    transition: 0.2s;
+}
+
+.nut-lien-he:hover{
+    background: #083c7d;
+}
